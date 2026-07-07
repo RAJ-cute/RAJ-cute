@@ -19,7 +19,6 @@
 - 🚀 Full Stack Developer who loves turning coffee into code
 - 🌐 Passionate about building slick web apps and playing with AI/LLM pipelines
 - 🧠 Currently exploring RAG pipelines, vector databases & prompt engineering
-- 🗣️ Public Speaking & Team Leadership
 - ⚡ Fun fact: my commits run on caffeine
 
 ---
@@ -68,12 +67,6 @@
 ![RAG](https://img.shields.io/badge/-RAG_Pipelines-2575FC?style=for-the-badge)
 ![Prompt Engineering](https://img.shields.io/badge/-Prompt_Engineering-6a11cb?style=for-the-badge)
 
-**Soft Skills**
-
-![Public Speaking](https://img.shields.io/badge/-Public_Speaking-FF6F61?style=for-the-badge)
-![Team Building](https://img.shields.io/badge/-Team_Building-FFA500?style=for-the-badge)
-![Leadership](https://img.shields.io/badge/-Org._Leadership-4B8BBE?style=for-the-badge)
-
 ---
 
 ### 📊 GitHub Stats
@@ -106,41 +99,6 @@
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-cute&theme=react-dark&hide_border=true&area=true" />
 </div>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/RAJ-cute/RAJ-cute/output/github-contribution-grid-snake-dark.svg" />
-</div>
-
-> ⚙️ To make the snake animation above actually work, add this GitHub Action to a repo named exactly **RAJ-cute** (your profile repo):
-> `.github/workflows/snake.yml`
-> ```yaml
-> name: generate animation
-> on:
->   schedule:
->     - cron: "0 */6 * * *"
->   workflow_dispatch:
->   push:
->     branches:
->       - main
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk@v3
->         with:
->           github_user_name: RAJ-cute
->           outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
 
 ---
 
